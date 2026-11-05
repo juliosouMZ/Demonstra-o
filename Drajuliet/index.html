@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5e9dc">
+  <meta name="description" content="Psicanálise e terapia com Juliet Cesário Lage. Um espaço de escuta, acolhimento e cuidado.">
+  <title>Juliet Cesário Lage | Psicanalista e Terapeuta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#inicio" aria-label="Juliet Cesário Lage - início">
+      <span class="brand-script">Juliet Cesário Lage</span>
+      <span class="brand-sub">PSICANALISTA <i>•</i> TERAPEUTA</span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#atendimento">Atendimentos</a><a href="#contato">Contato</a>
+      <a class="nav-cta" href="#contato">Agende sua sessão <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow">UM ESPAÇO PARA VOCÊ</p>
+        <h1>Cuidar da sua mente também é um ato de <em>amor.</em></h1>
+        <p class="hero-text">Psicanálise e terapia para compreender suas emoções, olhar para sua história e construir novos caminhos com mais consciência.</p>
+        <a class="button button-gold" href="#contato">Agende sua sessão <span>→</span></a>
+      </div>
+      <div class="portrait-wrap">
+        <div class="portrait-halo"></div>
+        <img class="portrait" src="assets/juliet-retrato.jpg" alt="Juliet Cesário Lage">
+        <span class="portrait-caption">Juliet Cesário Lage<br><small>Psicanalista • Terapeuta</small></span>
+      </div>
+      <div class="hero-line"></div>
+    </section>
+
+    <section class="pillars" aria-label="Princípios do atendimento">
+      <article><span class="line-icon">❋</span><h3>Psicanálise</h3><p>Um olhar atento para sua história e seus conflitos.</p></article>
+      <article><span class="line-icon">♡</span><h3>Escuta</h3><p>Um espaço de fala, reflexão e acolhimento.</p></article>
+      <article><span class="line-icon">✳</span><h3>Autoconhecimento</h3><p>Possibilidades para compreender a si mesmo.</p></article>
+      <article><span class="line-icon">♙</span><h3>Cuidado individual</h3><p>Respeito à singularidade de cada pessoa.</p></article>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="about-copy">
+        <p class="eyebrow">SOBRE</p>
+        <h2>Um lugar onde sua história pode ser escutada.</h2>
+        <p>Sou Juliet Cesário Lage, Psicanalista e Terapeuta. Meu trabalho é oferecer um espaço de escuta e acolhimento, no qual você possa falar sobre o que sente, refletir sobre suas experiências e encontrar novas formas de olhar para sua trajetória.</p>
+        <p>Cada pessoa tem uma história única. O processo acontece respeitando seu tempo, suas vivências e suas necessidades.</p>
+        <a class="text-link" href="#contato">Vamos conversar <span>→</span></a>
+      </div>
+      <aside class="quote">
+        <span>“</span>
+        <p>Às vezes, o primeiro passo é encontrar um espaço para se escutar de verdade.</p>
+        <i></i>
+      </aside>
+    </section>
+
+    <section class="care section" id="atendimento">
+      <div>
+        <p class="eyebrow">ATENDIMENTO</p>
+        <h2>Um processo construído com escuta e respeito.</h2>
+        <p>O atendimento é um convite ao diálogo e ao autoconhecimento, em um ambiente de respeito, sigilo e acolhimento.</p>
+      </div>
+      <ul class="care-list">
+        <li><b>✓</b> Escuta atenta e individualizada</li>
+        <li><b>✓</b> Respeito à sua história e ao seu tempo</li>
+        <li><b>✓</b> Espaço de acolhimento e reflexão</li>
+        <li><b>✓</b> Atendimento online</li>
+      </ul>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="contact-intro">
+        <p class="eyebrow">ENTRE EM CONTATO</p>
+        <h2>Vamos conversar?</h2>
+        <p>Preencha o formulário para iniciar uma conversa e consultar informações sobre os atendimentos.</p>
+        <div class="contact-note"><span>✦</span><p>Um primeiro contato, no seu tempo e sem pressão.</p></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="nome">Seu nome</label>
+        <input id="nome" name="nome" type="text" placeholder="Como podemos chamar você?" autocomplete="name" required>
+        <label for="email">Seu e-mail</label>
+        <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" autocomplete="email" required>
+        <label for="telefone">WhatsApp</label>
+        <input id="telefone" name="telefone" type="tel" placeholder="(00) 00000-0000" autocomplete="tel">
+        <label for="modalidade">Preferência de atendimento</label>
+        <select id="modalidade" name="modalidade" required>
+          <option value="">Selecione uma opção</option>
+          <option>Online</option>
+          <option>Gostaria de conversar sobre as opções</option>
+        </select>
+        <label for="mensagem">Como posso ajudar?</label>
+        <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem (opcional)"></textarea>
+        <button class="button button-gold submit" type="submit">Enviar mensagem <span>↗</span></button>
+        <p class="form-privacy">Ao enviar, você será direcionado ao WhatsApp para concluir o contato.</p>
+        <p class="form-feedback" id="formFeedback" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="closing">
+      <div class="closing-mark">✳</div>
+      <div><p class="eyebrow">SEU MOMENTO DE CUIDADO</p><h2>O primeiro passo pode começar com uma conversa.</h2><p>Entre em contato para saber mais sobre o atendimento.</p></div>
+      <a class="button button-light" href="#contato">Fale comigo <span>→</span></a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#inicio"><span class="brand-script">Juliet Cesário Lage</span><span class="brand-sub">PSICANALISTA <i>•</i> TERAPEUTA</span></a>
+    <div class="footer-links"><a href="#sobre">Sobre</a><a href="#atendimento">Atendimentos</a><a href="#contato">Contato</a><a href="https://wa.me/5535196571639" target="_blank" rel="noopener">WhatsApp</a></div>
+    <p>Juliet Cesário Lage · Psicanalista e Terapeuta</p>
+    <small>As informações deste site são institucionais. O contato inicial não substitui uma consulta.</small>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
